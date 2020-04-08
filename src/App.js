@@ -18,12 +18,13 @@ class App extends Component {
     if (response.status !== 200) {
         throw Error(body.message)
     }
+    // console.log(body);
     return body;
   }
   render() {
     var items = _.map(this.state.partners, (partner) => {
       return {
-        id: partner.id,
+        // id: partner.id,
         name: partner.name,
         display_name: partner.display_name,
         create_date: partner.create_date
@@ -38,15 +39,15 @@ class App extends Component {
           <td>{item.create_date}</td>
         </tr>
       );
-    })
+    });
+
     return (
       <div className='App'>
         <header className='App-header'>
           <img className='App-logo' src={logo} alt="logo" />
         </header>
         <div className='container'>
-          <h1>Welcome to our website</h1>
-          <h4>Join us at our Events:</h4>
+          <h1>Welcome partners</h1>
           <table className='table'>
             <thead>
               <tr>
