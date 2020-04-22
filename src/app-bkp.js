@@ -13,13 +13,12 @@ class App extends Component {
   }
   
   callBackendAPI = async () => {
-    const response = await fetch('http://localhost:3000/partners');
-    // http://localhost:5000/partners
+    const response = await fetch('/partners');
     const body = await response.json();
     if (response.status !== 200) {
         throw Error(body.message)
     }
-    // console.log(body);
+    console.log(body.name); //testeando respuesta.
     return body;
   }
   render() {
