@@ -1,3 +1,18 @@
+NOTAS DE RODRI:
+
+En este proyecto estoy probando llamadas desde el back a la base nueva del ifei,
+el objetivo es crear un crud a las tablas nuevas que creamos a mano para cumplir
+con los requerimientos del cliente.
+
+También crear las pantallas nuevas del front para que el usuario pueda tener acceso al crud.
+
+npm run dev corre el front y el back a la vez, está configurado con proxy en el package.json
+
+--------------------------
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
