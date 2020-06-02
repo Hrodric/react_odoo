@@ -24,3 +24,10 @@ yarn-error.log*
 
 # others
 src/app-bkp.js
+api/odoo.js
+src/components/Toggle.js
+src/components/Pg-connection.js
+src/components/Http.js
+src/components/Form.js
+src/components/Credit-card.js
+src/components/Partners.js

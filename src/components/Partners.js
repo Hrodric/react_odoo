@@ -1,19 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import 
+// import React, { useState, useEffect } from 'react';
+// import 
 
-export const Partners = props => {
+// export const Partners = props => {
 
-    const [partners, setPartners] = useState([]);
+    // const [partners, setPartners] = useState([]);
 
-    useEffect(() => {
-        getPartners()
-        console.log('Effect working on...');
-        setIsLoading(true);
-    }, [input]);
+    // useEffect(() => {
+    //     getPartners()
+    //     console.log('Effect working on...');
+    //     setIsLoading(true);
+    // }, [input]);
 
-    let content = <p>Loading partners...</p>;
+    // let content = <p>Loading partners...</p>;
 
 
+    
 
     // render(){
     //     console.log(this.props)
@@ -41,4 +42,4 @@ export const Partners = props => {
     //         </div>
     //     )
     // }
-}
+// }

@@ -1,12 +1,34 @@
 NOTAS DE RODRI:
 
-En este proyecto estoy probando llamadas desde el back a la base nueva del ifei,
-el objetivo es crear un crud a las tablas nuevas que creamos a mano para cumplir
-con los requerimientos del cliente.
+En este proyecto estoy probando llamadas a alguna bd de odoo,
+el objetivo es crear un crud reutilizable para moduBase.
+
+1) Como primer paso se va a analizar en profundidad la api de odoo (odoo-xmlrpc) para traer los 
+datos que se desee traer desde la bd.
+
+2) Impactar datos en la bd.
+
+3) Actualizar datos en la bd.
+
+4) Borrar datos en la bd.
+
+5) Como paso final, se va a organizar el routing y crear un nuevo componente independiente para
+reutilización, luego el push en moduBase.
 
 También crear las pantallas nuevas del front para que el usuario pueda tener acceso al crud.
 
-npm run dev corre el front y el back a la vez, está configurado con proxy en el package.json
+NPM RUN DEV corre el front y el back a la vez, está configurado con proxy en el package.json
+
+
+
+
+API de ODOO 13 (odoo-xmlrpc)
+
+Estructura del Search:
+
+
+
+
 
 --------------------------
 
